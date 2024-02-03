@@ -6,6 +6,6 @@ const array3 = array1.concat(array2);
 console.log(array3);
 // Expected output: [ 'a', 'b', 'c', 'd', 'e', 'f' ]
 
-// concat() is not destructive: it doesn't affec the original arrays
+// concat() is not destructive: it doesn't affect the original arrays
 console.log(array1);
 // Expected output: [ 'a', 'b', 'c' ]
