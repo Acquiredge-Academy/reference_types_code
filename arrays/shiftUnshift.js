@@ -1,8 +1,7 @@
 const array1 = [1, 2, 3];
 
 // Array.unshift(element1, element2, ...): adds elements to the beginning of the array
-console.log(array1.unshift(4, 5));
-// Expected output: 5
+array1.unshift(4, 5);
 
 console.log(array1);
 // Expected output: [4, 5, 1, 2, 3]
