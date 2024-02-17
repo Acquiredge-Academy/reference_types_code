@@ -1,6 +1,6 @@
 // Exercise 2: Object Equality
 // Write a function that compares two shallow objects and checks if they are equal
-function isEqual(obj1, obj2) {
+function isShallowEqual(obj1, obj2) {
 
 }
 
