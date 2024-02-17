@@ -31,6 +31,7 @@ console.log("After adding a task for tomorrow:", dailyTasks);
  */
 
 // Remove the first element
+dailyTasks.shift();
 console.log("After completing first task:", dailyTasks);
 
 
@@ -45,6 +46,7 @@ console.log("After completing first task:", dailyTasks);
  */
 
 // Save the index of "Write report" to urgentTaskIndex
+let urgentTaskIndex = dailyTasks.indexOf("Write report");
 console.log(`Urgent task position: ${urgentTaskIndex}`);
 
 /**
@@ -56,4 +58,5 @@ console.log(`Urgent task position: ${urgentTaskIndex}`);
  */
 
 // Reverse the order of dailyTasks for tomorrow
+dailyTasks.reverse();
 console.log("Tasks reordered for tomorrow:", dailyTasks);
