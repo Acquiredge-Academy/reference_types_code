@@ -1,6 +1,7 @@
 // Exercise 2: Object Equality
 // Write a function that compares two shallow objects and checks if they are equal
 // Hint: Look up the Object.keys() method
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
 function isShallowEqual(obj1, obj2) {
 
 }
