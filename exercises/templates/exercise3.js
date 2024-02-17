@@ -23,8 +23,7 @@ console.log(`After adding a task for tomorrow: ${dailytasks}`);
 
 /**
  * Task 1: Complete the First Task of the Day
- * You complete your first task of the day.
- * Remove it from the list and save it to a variable `completedTask` so we can log it to the console.
+ * You complete your first task of the day. Remove it from the list.
  *
  * Expected output:
  * After completing first task: ["Check emails", "Attend team meeting", "Write report"]
