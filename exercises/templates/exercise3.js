@@ -9,7 +9,6 @@
  */
 
 const dailyTasks = ["Check emails", "Attend team meeting", "Write report"];
-console.log("Initial tasks:", dailyTasks);
 
 /**
  * Task 0: Prepare for Tomorrow
@@ -20,7 +19,7 @@ console.log("Initial tasks:", dailyTasks);
  */
 
 // Add new task for tomorrow here
-console.log("After adding a task for tomorrow:", dailyTasks);
+console.log(`After adding a task for tomorrow: ${dailytasks}`);
 
 /**
  * Task 1: Complete the First Task of the Day
@@ -28,12 +27,12 @@ console.log("After adding a task for tomorrow:", dailyTasks);
  * Remove it from the list and save it to a variable `completedTask` so we can log it to the console.
  *
  * Expected output:
- * Completed task: Plan next week
+ * After completing first task: ["Check emails", "Attend team meeting", "Write report"]
  */
 
 let completedTask;
 // Remove the first element and save it to completedTask
-console.log(`Completed task: ${completedTask}`);
+console.log(`After completing first task: ${dailyTasks}`);
 
 
 /**
@@ -59,4 +58,4 @@ console.log(`Urgent task position: ${urgentTaskIndex}`);
  */
 
 // Reverse the order of dailyTasks for tomorrow
-console.log("Tasks reordered for tomorrow:", dailyTasks);
+console.log(`Tasks reordered for tomorrow: ${dailyTasks}`);
