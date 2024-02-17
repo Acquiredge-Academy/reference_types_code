@@ -11,7 +11,7 @@ const person1 = {
     favoriteFood: "Pizza"
 };
 const person2 = {
-    name: "John",
+    name: "Kevin",
     age: 25,
     favoriteFood: "Pizza"
 };
@@ -27,6 +27,6 @@ const person4 = {
     location: "Brooklyn"
 };
 
-console.log(isShallowEqual(person1, person2)); // Expected: true
+console.log(isShallowEqual(person1, person2)); // Expected: false
 console.log(isShallowEqual(person1, person3)); // Expected: true
 console.log(isShallowEqual(person1, person4)); // Expected: false
