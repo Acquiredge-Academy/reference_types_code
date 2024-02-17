@@ -1,9 +1,7 @@
 /**
  * Daily Task Planner Exercise
  *
- * Welcome to the Daily Task Planner Exercise! In this activity, you'll use JavaScript
- * array methods to manage a list of daily tasks. The goal is to simulate adding,
- * completing, and organizing tasks in a daily planner.
+ * In this exercise, you'll use JavaScript array methods to manage a list of daily tasks.
  *
  * The array 'dailyTasks' below represents your initial list of daily tasks
  *
