@@ -19,7 +19,7 @@ const dailyTasks = ["Check emails", "Attend team meeting", "Write report"];
  */
 
 // Add new task for tomorrow here
-console.log(`After adding a task for tomorrow: ${dailytasks}`);
+console.log(`After adding a task for tomorrow: ${dailyTasks}`);
 
 /**
  * Task 1: Complete the First Task of the Day
@@ -29,7 +29,6 @@ console.log(`After adding a task for tomorrow: ${dailytasks}`);
  * After completing first task: ["Check emails", "Attend team meeting", "Write report"]
  */
 
-let completedTask;
 // Remove the first element and save it to completedTask
 console.log(`After completing first task: ${dailyTasks}`);
 
@@ -44,7 +43,6 @@ console.log(`After completing first task: ${dailyTasks}`);
  * Urgent task position: 2
  */
 
-let urgentTaskIndex;
 // Save the index of "Write report" to urgentTaskIndex
 console.log(`Urgent task position: ${urgentTaskIndex}`);
 
