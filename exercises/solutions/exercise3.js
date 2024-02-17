@@ -20,7 +20,7 @@ const dailyTasks = ["Check emails", "Attend team meeting", "Write report"];
 
 // Add new task for tomorrow here
 dailyTasks.unshift("Plan next week");
-console.log(`After adding a task for tomorrow: ${dailyTasks}`);
+console.log("After adding a task for tomorrow:", dailyTasks);
 
 /**
  * Task 1: Complete the First Task of the Day
@@ -31,7 +31,7 @@ console.log(`After adding a task for tomorrow: ${dailyTasks}`);
  */
 
 // Remove the first element
-console.log(`After completing first task: ${dailyTasks}`);
+console.log("After completing first task:", dailyTasks);
 
 
 /**
@@ -56,4 +56,4 @@ console.log(`Urgent task position: ${urgentTaskIndex}`);
  */
 
 // Reverse the order of dailyTasks for tomorrow
-console.log(`Tasks reordered for tomorrow: ${dailyTasks}`);
+console.log("Tasks reordered for tomorrow:", dailyTasks);
