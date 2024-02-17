@@ -29,7 +29,7 @@ console.log(`After adding a task for tomorrow: ${dailyTasks}`);
  * After completing first task: ["Check emails", "Attend team meeting", "Write report"]
  */
 
-// Remove the first element and save it to completedTask
+// Remove the first element
 console.log(`After completing first task: ${dailyTasks}`);
 
 
