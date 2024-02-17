@@ -1,5 +1,6 @@
 // Exercise 2: Object Equality
 // Write a function that compares two shallow objects and checks if they are equal
+// Hint: Look up the Object.keys() method
 function isShallowEqual(obj1, obj2) {
     const obj1Keys = Object.keys(obj1);
     const obj2Keys = Object.keys(obj2);
