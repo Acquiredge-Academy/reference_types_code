@@ -22,7 +22,7 @@ const guestList = ["Alice", "Bob", "Charlie", "Dana", "Eli", "Frank"];
  */
 
 let vipGuestList;
-// Code goes here
+vipGuestList = guestList.slice(0, 3);
 console.log("VIP Guest List: ", vipGuestList);
 
 /**
@@ -35,5 +35,5 @@ console.log("VIP Guest List: ", vipGuestList);
  * Updated Guest List: ["Alice", "Bob", "Charlie", "Grace", "Eli", "Frank"]
  */
 
-// Code goes here
+guestList.splice(3, 1, "Grace");
 console.log("Updated Guest List: ", guestList)
