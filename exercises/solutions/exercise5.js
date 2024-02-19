@@ -26,3 +26,7 @@ const shoppingList = [
 ];
 
 // Code goes here
+
+shoppingList.forEach((e) => {
+    console.log(`${e.item} - ${e.purchased ? "purchased" : "not purchased"}`);
+});
