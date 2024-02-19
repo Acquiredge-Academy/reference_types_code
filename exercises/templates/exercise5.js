@@ -14,7 +14,7 @@
  * DO NOT use a for loop for this. Use the forEach() method.
  * The forEach() method is a higher order function, and takes a callback function.
  * Read about the forEach() method here:
- * https://www.geeksforgeeks.org/javascript-array-foreach-method/#
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
  */
 
 const shoppingList = [
